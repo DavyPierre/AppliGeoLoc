@@ -9,11 +9,11 @@ $BDD->DB();
 class BDD {
 
     public $pdo;
-    private $host_name = "db554207254.db.1and1.com";
-    private $database = "db554207254";
-    private $dsn = 'mysql:dbname=db554207254;host=db554207254.db.1and1.com';
-    private $user_name = "dbo554207254";
-    private $pwd = "if26ccool";
+    private $host_name = "";
+    private $database = "";
+    private $dsn = 'mysql:dbname=;host=';
+    private $user_name = "";
+    private $pwd = "";
 
     public function DB() {
         try {
